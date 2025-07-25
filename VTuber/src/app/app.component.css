@@ -43,26 +43,232 @@ img:hover {
 } 
 
 
-/* Card styles for individual VTubers */
 
-/*Foxii Card*/
-.card-Foxii {
-  background: linear-gradient(to right top, rgba(2, 1, 255, 255), rgba(255, 0, 254, 255));
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Card Background Styles */
+
+.card-Unheilig{
+  background-image: url('/assets/images/Unholy_Army.jpg');
+  
   border-radius: 3rem;
   padding: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin: 2rem;
+  margin: 1rem;
 }
-.card-Foxii h2{
+
+.card-Creators{
+  background-image: url('/assets/images/Starlit_Background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 1rem;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Card styles for individual VTubers */
+
+/* Hoshizuki Card */
+.card-Hoshizuki {
+  position: relative;
+  overflow: hidden;
+  background-image: url('/assets/images/Hoshizuki_Background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(145, 79, 153, 255);
+  margin: 2rem;
+} 
+.card-Hoshizuki::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3); /* Schwarzes Overlay mit 30% Deckkraft */
+  z-index: 0;
+}
+.card-Hoshizuki > * {
+  position: relative;
+  z-index: 1;
+}
+.card-Hoshizuki h2 {
   margin-top: 25px;
   font-size: 52px;
   color: white;
   font-family: "Sedgwick Ave Display", cursive;
   text-align: center;
 }
-.card-Foxii p{
+.card-Hoshizuki p {
   font-size: 16px;
   color: white;
+  font-family: "Eagle Lake", serif;
+  text-align: center;
+}
+
+
+/* Astralynia Card */
+.card-Astralynia {
+  position: relative;
+  overflow: hidden;
+
+  background-image: url('/assets/images/Astralynia_Background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(145, 79, 153, 255);
+  margin: 2rem;
+} 
+.card-Astralynia::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.4); /* Weißes Overlay mit 40% Deckkraft */
+  z-index: 0;
+}
+.card-Astralynia > * {
+  position: relative;
+  z-index: 1;
+}
+.card-Astralynia h2 {
+  margin-top: 25px;
+  font-size: 52px;
+  color: black;
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+}
+.card-Astralynia p {
+  font-size: 16px;
+  color: black;
+  font-family: "Eagle Lake", serif;
+  text-align: center;
+}
+
+
+/* KitePnP Card */
+.card-KitePnP {
+  position: relative;
+  overflow: hidden;
+  background-image: url('/assets/images/KitePnP_Background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(145, 79, 153, 255);
+  margin: 2rem;
+} 
+.card-KitePnP::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* Schwarzes Overlay mit 40% Deckkraft */
+  z-index: 0;
+}
+.card-KitePnP > * {
+  position: relative;
+  z-index: 1;
+}
+.card-KitePnP h2 {
+  margin-top: 25px;
+  font-size: 52px;
+  color: white;
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+}
+.card-KitePnP p {
+  font-size: 16px;
+  color: white;
+  font-family: "Eagle Lake", serif;
+  text-align: center;
+}
+
+
+/* RaeliaLaubwind Card */
+.card-RaeliaLaubwind {
+  position: relative;
+  overflow: hidden;
+  background-image: url('/assets/images/RaeliaLaubwind_Background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(145, 79, 153, 255);
+  margin: 2rem;
+} 
+.card-RaeliaLaubwind::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* Schwarzes Overlay mit 40% Deckkraft */
+  z-index: 0;
+}
+.card-RaeliaLaubwind > * {
+  position: relative;
+  z-index: 1;
+}
+.card-RaeliaLaubwind h2 {
+  margin-top: 25px;
+  font-size: 52px;
+  color: white;
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+}
+.card-RaeliaLaubwind p {
+  font-size: 16px;
+  color: white;
+  font-family: "Eagle Lake", serif;
+  text-align: center;
+}
+
+
+
+/*Foxii Card*/
+.card-Foxii {
+  position: relative;
+  overflow: hidden;
+  background-image: url('/assets/images/Foxii_Background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 2rem;
+}
+.card-Foxii::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.4); /* Weißes Overlay mit 40% Deckkraft */
+  z-index: 0;
+}
+.card-Foxii > * {
+  position: relative;
+  z-index: 1;
+}
+.card-Foxii h2{
+  margin-top: 25px;
+  font-size: 52px;
+  color: black;
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+}
+.card-Foxii p{
+  font-size: 16px;
+  color: black;
   font-family: "Eagle Lake", serif;
   text-align: center;
 }
@@ -91,6 +297,7 @@ img:hover {
 }
 
 
+
 /*Starlit Card*/
 .card-Starlit {
   background: rgba(205,224,188,255);
@@ -112,6 +319,7 @@ img:hover {
   font-family: "Eagle Lake", serif;
   text-align: center;
 }
+
 
 
 /*Matze Card*/
