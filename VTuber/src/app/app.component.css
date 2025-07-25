@@ -1,31 +1,32 @@
 .headline{
-    margin-top: 100px;
-    color: white;
-    font-family: "Sedgwick Ave Display", cursive;
-    text-align: center;
+  margin-top: 100px;
+  color: white;
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
 }
+
 .headline h1 {
-    font-size: 120px;
+  font-size: 120px;
 }
 
 .content{
-    padding-left: 50px;
-    padding-right: 50px;
-    color: white;
-    font-family: "Sedgwick Ave Display";
-    text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  font-family: "Sedgwick Ave Display";
+  text-align: center;
 }
 
 .content h3 {
-    font-size: 48px;
-    padding-bottom: 50px; 
+  font-size: 48px;
+  padding-bottom: 50px; 
 }
 
 img {
   border-radius: 1rem;
   margin-left: 2rem;
   margin-top: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 40px rgb(0, 0, 0, 1);
   transition: transform 0.3s ease;
 }
 
@@ -40,3 +41,56 @@ img:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: 1rem;
 } 
+
+
+/* Card styles for individual VTubers */
+
+/*Foxii Card*/
+.card-Foxii {
+  background: linear-gradient(to right top, rgba(2, 1, 255, 255), rgba(255, 0, 254, 255));
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 2rem;
+}
+
+.card-Foxii h2{
+  margin-top: 25px;
+  font-size: 52px;
+  color: white;
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+}
+
+.card-Foxii p{
+  font-size: 16px;
+  color: white;
+  font-family: "Eagle Lake", serif;
+  text-align: center;
+}
+
+/*Saitashi Card*/
+.card-Saitashi {
+  background:white;
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 2rem;
+}
+
+.card-Saitashi h2{
+  margin-top: 25px;
+  font-size: 52px;
+  color: black;
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+}
+
+.card-Saitashi p{
+  font-size: 16px;
+  color: black;
+  font-family: "Eagle Lake", serif;
+  text-align: center;
+}
+
+
