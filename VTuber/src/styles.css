@@ -5,6 +5,13 @@ html, body {
 }
 
 body {
-  background: linear-gradient(to right, #ff9a9e, #8e2de2, #4a00e0);
+  background: linear-gradient(to right, rgb(51, 51, 51), black);
+  margin: 0;
 }
 
+.my-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
