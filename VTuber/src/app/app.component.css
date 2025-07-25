@@ -53,7 +53,6 @@ img:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: 2rem;
 }
-
 .card-Foxii h2{
   margin-top: 25px;
   font-size: 52px;
@@ -61,13 +60,13 @@ img:hover {
   font-family: "Sedgwick Ave Display", cursive;
   text-align: center;
 }
-
 .card-Foxii p{
   font-size: 16px;
   color: white;
   font-family: "Eagle Lake", serif;
   text-align: center;
 }
+
 
 /*Saitashi Card*/
 .card-Saitashi {
@@ -77,7 +76,6 @@ img:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: 2rem;
 }
-
 .card-Saitashi h2{
   margin-top: 25px;
   font-size: 52px;
@@ -85,7 +83,6 @@ img:hover {
   font-family: "Sedgwick Ave Display", cursive;
   text-align: center;
 }
-
 .card-Saitashi p{
   font-size: 16px;
   color: black;
@@ -94,3 +91,48 @@ img:hover {
 }
 
 
+/*Starlit Card*/
+.card-Starlit {
+  background: rgba(205,224,188,255);
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 2rem;
+}
+.card-Starlit h2{
+  margin-top: 25px;
+  font-size: 52px;
+  color: black;
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+}
+.card-Starlit p{
+  font-size: 16px;
+  color: black;
+  font-family: "Eagle Lake", serif;
+  text-align: center;
+}
+
+
+/*Matze Card*/
+.card-Matze {
+  /*background: linear-gradient(to right top, rgba(202, 54, 68, 255), rgb(35, 30, 34));*/
+  background: linear-gradient(to right top, rgba(202, 54, 68, 255), rgb(0, 0, 0));
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 2rem;
+}
+.card-Matze h2{
+  margin-top: 25px;
+  font-size: 52px;
+  color: white;
+  font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+}
+.card-Matze p{
+  font-size: 16px;
+  color: white;
+  font-family: "Eagle Lake", serif;
+  text-align: center;
+}
