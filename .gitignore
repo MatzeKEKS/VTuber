@@ -1,5 +1,5 @@
-#node_modules
-node_modules/
-dist/
+#backend 
+/vtuber-api/node_modules/
+/vtuber-api/dist/
 
-vtuber-api/dist/
+.env
